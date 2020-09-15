@@ -6,8 +6,19 @@
 
 <script>
 export default {
-  name: 'pic',
-  props: ['picfilename', 'id']
+  name: 'Pic',
+  props: {
+    picfilename: {
+      type: String,
+      required: false,
+      default: ''
+    },
+    id: {
+      type: String,
+      required: false,
+      default: ''
+    }
+  }
 }
 </script>
 

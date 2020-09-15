@@ -1,17 +1,17 @@
 <template>
   <div>
     <h1>Images</h1>
-    <pic v-for="pic in pics" :key="pic.id" :id="pic.id" :picfilename="pic.attributes.filename" />
+    <v-pic v-for="pic in pics" :key="pic.id" :id="pic.id" :picfilename="pic.attributes.filename" />
   </div>
 </template>
 
 <script>
 import axios from 'axios'
-import pic from '../../components/pic'
+import Pic from '~/components/Pic'
 
 export default {
   components: {
-    pic
+    vPic: Pic
   },
   data() {
     return {
