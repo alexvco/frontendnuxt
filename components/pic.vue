@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <p>{{ picfilename }}</p>
-  </div>
+  <nuxt-link :to="'images/' + id">
+    <div>
+      <p>{{ picfilename }}</p>
+    </div>
+  </nuxt-link>
 </template>
 
 <script>
