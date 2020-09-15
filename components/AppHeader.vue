@@ -6,10 +6,10 @@
         <nuxt-link to="/">Home</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/">Home</nuxt-link>
+        <nuxt-link to="/about">About</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/">Home</nuxt-link>
+        <nuxt-link to="/images">Images</nuxt-link>
       </li>
     </ul>
   </header>
